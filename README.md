@@ -1,1 +1,1 @@
-# Apex_task2
+This is a contact form where user enter username , email and password and the input is validated using javascript (i.e, username must have atleast 6 characters and password length should be greater than 6 and email must have @) after vadilating user input it will redirect it to to-do list page where user can enter there daily tasks and also remove tasks from the list.
