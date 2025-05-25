@@ -1,7 +1,6 @@
 function validateForm() {
 console.log("validateForm called");
   let userName = document.getElementById("username").value;
-  let password = document.getElementById("password").value;
   let email = document.getElementById("email").value;
  
 
@@ -14,19 +13,13 @@ console.log("validateForm called");
     return false;
   }
 
-  // Validate password
-  if (password.length < 6) {
-    alert("Password must be at least 6 characters long.");
-    return false;
-  }
-
   // Validate email
   if (!mailRegex.test(email)) {
 
     alert("Invalid email format.");
     return false;
   }
-
+ alert("submitted");
  window.location.href="todo.html";
  return false;
 }
