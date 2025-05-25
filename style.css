@@ -1,0 +1,78 @@
+ body {
+            font-family: Arial, sans-serif;
+         
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            flex-direction:column;
+            height: 100vh;
+            margin: 0;
+        }
+        .sections{
+            max-width:800px;
+            width: 100%;
+            background: white;
+            margin: 40px auto;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        h1{
+            text-align: center;
+            font-size: 30px;
+            font-weight: 400;
+        }
+        .login-container{
+            background-color:powderblue;
+            padding: 50px; 
+            padding-right: 20px;
+            border-radius: 4px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 800px;
+             margin-top:30px;
+            margin-bottom: 30px;
+        }
+        .login-container h2 {
+            margin-bottom: 20px;
+            color: #333;
+        }
+        .login-container input[type="text"],
+        .login-container input[type="password"],
+        .login-container input[type="email"]
+        {
+            display: inline-block;
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .login-container input[type="submit"] {
+            width: 20%;
+            padding: 30px;
+            background-color: rgb(15, 15, 136);
+            border: none;
+            border-radius: 50%;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+            align-items: center;
+        }
+            label, input {
+                display: block;
+                width: 100%;
+                margin-bottom: 10px;
+                }
+           button{
+                background-color:rgb(18, 18, 99);
+                        color: white;
+                border: none;
+                padding: 10 px;
+                cursor: pointer;
+         }
+
+        button:hover {
+            background-color:blue;
+            box-shadow: 2px 2px 2px 2px rgb(32, 32, 114);
+          
+        }
+    
